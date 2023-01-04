@@ -1,4 +1,4 @@
-from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Trainer, AutoTokenizer, DataCollatorForSeq2Seq
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Trainer, AutoTokenizer, DataCollatorForSeq2Seq, TrainingArguments
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from datasets import load_from_disk, load_metric
 import random
@@ -8,8 +8,14 @@ import argparse
 import os
 import torch
 import numpy as np
+import subprocess as sp
+
 
 if __name__ == "__main__":
+    
+    # Install and import the additional Sacrebleu package
+    sp.check_call([sys.executable, "-m", "pip", "install", "sacrebleu"])
+    import sacrebleu
 
     parser = argparse.ArgumentParser()
 
@@ -74,7 +80,7 @@ if __name__ == "__main__":
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
     # define training args
-    training_args = TrainingArguments(
+    training_args = Seq2SeqTrainingArguments(
         output_dir=args.model_dir,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.train_batch_size,
