@@ -11,8 +11,7 @@
 <h3 align="center">Botpress Fine Tuning</h3>
 
   <p align="center">
-    project_description
-    <br />
+    project_description    <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
