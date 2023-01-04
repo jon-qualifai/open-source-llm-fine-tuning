@@ -115,7 +115,7 @@ There are two main notebooks used for fine-tuning the language models.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[HuggingFace]: https://miro.medium.com/max/1200/1*Z4mGaMsu34LfyE76QAi9qA.png
+[HuggingFace]: https://speechbrain.github.io/img/hf.ico
 [HuggingFace-url]: https://huggingface.co/
 [PyTorch]: https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
 [PyTorch-url]: https://https://pytorch.org/
