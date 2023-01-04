@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jon-qualifai/botpress-fine-tuning">
-    <img src="images/botpress-logo.png" alt="Logo" width="80" height="80">
+    <img src="images/botpress-logo.png" alt="Logo">
   </a>
 
 <h3 align="center">Botpress Fine Tuning</h3>
