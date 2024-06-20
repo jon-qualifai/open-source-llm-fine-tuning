@@ -4,11 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jon-qualifai/botpress-fine-tuning">
-    <img src="images/botpress-logo.png" alt="Logo">
-  </a>
 
-<h3 align="center">Botpress Fine Tuning</h3>
+<h3 align="center">Open Source LLM Fine Tuning</h3>
 
   <p align="center">
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
